@@ -1,0 +1,67 @@
+FeeLens comparison: sending 1,000.00 USD -> INR
+(mid-market value of the payment: 88,700.00 INR)
+
+Provider                                Recipient gets      Total cost   Cost %
+--------------------------------------  ----------------    ----------   ------
+Wise                                         88,123.45 INR     576.55 INR   0.65%
+Remitly (economy)                            87,195.63 INR   1,504.37 INR   1.70%
+Payoneer                                     86,056.74 INR   2,643.26 INR   2.98%
+Cash pickup agent network                    86,050.95 INR   2,649.05 INR   2.99%
+Bank SWIFT wire (typical retail bank)        82,599.66 INR   6,100.34 INR   6.88%
+PayPal (international commercial)            82,227.47 INR   6,472.53 INR   7.30%
+
+Cheapest route: Wise — recipient gets 88,123.45 INR.
+Priciest route: PayPal (international commercial) — recipient gets 82,227.47 INR.
+Hidden-cost gap on this one payment: 5,895.98 INR.
+That gap is money that moves without ever appearing on a fee receipt.
+
+---
+
+FeeLens comparison: sending 500.00 USD -> PHP
+(mid-market value of the payment: 29,450.00 PHP)
+
+Provider                                Recipient gets      Total cost   Cost %
+--------------------------------------  ----------------    ----------   ------
+Wise                                         29,258.58 PHP     191.42 PHP   0.65%
+Remitly (economy)                            28,892.80 PHP     557.20 PHP   1.89%
+Payoneer                                     28,572.39 PHP     877.61 PHP   2.98%
+Cash pickup agent network                    28,427.19 PHP   1,022.81 PHP   3.47%
+PayPal (international commercial)            27,292.43 PHP   2,157.57 PHP   7.33%
+Bank SWIFT wire (typical retail bank)        26,429.90 PHP   3,020.10 PHP  10.26%
+
+Cheapest route: Wise — recipient gets 29,258.58 PHP.
+Priciest route: Bank SWIFT wire (typical retail bank) — recipient gets 26,429.90 PHP.
+Hidden-cost gap on this one payment: 2,828.68 PHP.
+That gap is money that moves without ever appearing on a fee receipt.
+
+---
+
+FeeLens comparison: sending 2,500.00 EUR -> USD
+(mid-market value of the payment: 2,717.50 USD)
+
+Provider                                Recipient gets      Total cost   Cost %
+--------------------------------------  ----------------    ----------   ------
+Wise                                          2,699.84 USD      17.66 USD   0.65%
+Remitly (economy)                             2,674.61 USD      42.89 USD   1.58%
+Cash pickup agent network                     2,644.27 USD      73.23 USD   2.69%
+Payoneer                                      2,636.52 USD      80.98 USD   2.98%
+Bank SWIFT wire (typical retail bank)         2,585.67 USD     131.83 USD   4.85%
+PayPal (international commercial)             2,519.68 USD     197.82 USD   7.28%
+
+Cheapest route: Wise — recipient gets 2,699.84 USD.
+Priciest route: PayPal (international commercial) — recipient gets 2,519.68 USD.
+Hidden-cost gap on this one payment: 180.16 USD.
+That gap is money that moves without ever appearing on a fee receipt.
+
+---
+
+One route under the lens (PayPal, 1000 USD -> INR):
+PayPal (international commercial)
+  You send:            1,000.00 USD
+  Percentage fee:     -44.00 USD
+  Fixed fee:          -0.30 USD
+  Actually converted:  955.70 USD
+  Mid-market rate:     1 USD = 88.7 INR
+  Their rate:          1 USD = 86.0390 INR  (FX markup cost: 2,543.12 INR)
+  Recipient gets:      82,227.47 INR
+  TOTAL COST:          6,472.53 INR  (7.30% of the payment)
